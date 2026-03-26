@@ -185,9 +185,12 @@
         }
 
         .hero-content {
-            max-width: 780px;
+            max-width: 860px;
+            width: 100%;
             position: relative;
             z-index: 1;
+            text-align: center;
+            margin: 0 auto;
         }
 
         .hero-badge {
@@ -228,12 +231,12 @@
         .hero-subtitle {
             font-size: clamp(17px, 2.2vw, 21px);
             color: rgba(255,255,255,0.6);
-            max-width: 540px;
-            margin-bottom: 48px;
+            max-width: 580px;
+            margin: 0 auto 48px;
             line-height: 1.65;
         }
 
-        .hero-cta { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+        .hero-cta { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; justify-content: center; }
 
         /* ─── SHARED SECTION STYLES ─── */
         .section-label {
@@ -276,35 +279,46 @@
             line-height: 1.75;
         }
 
-        .about-stats {
+        .about-pillars {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
         }
 
-        .stat-card {
+        .pillar-card {
             background: var(--dark);
             border-radius: 16px;
-            padding: 28px;
+            padding: 28px 24px;
             color: var(--white);
+            border: 1px solid rgba(255,255,255,0.04);
+            transition: transform 0.2s;
         }
 
-        .stat-card.gold-card { background: var(--blue); }
+        .pillar-card:hover { transform: translateY(-3px); }
 
-        .stat-number {
-            font-size: 44px;
-            font-weight: 900;
-            color: var(--gold);
-            line-height: 1;
-            margin-bottom: 8px;
+        .pillar-icon {
+            width: 44px; height: 44px;
+            background: rgba(19,70,200,0.25);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-bottom: 14px;
         }
 
-        .stat-card.gold-card .stat-number { color: var(--white); font-size: 32px; }
+        .pillar-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 6px;
+            letter-spacing: -0.2px;
+        }
 
-        .stat-label {
-            font-size: 14px;
-            color: rgba(255,255,255,0.55);
-            font-weight: 500;
+        .pillar-desc {
+            font-size: 13px;
+            color: rgba(255,255,255,0.45);
+            line-height: 1.55;
         }
 
         /* ─── PRODUCTS ─── */
@@ -539,7 +553,7 @@
                 gap: 48px;
             }
 
-            .about-stats {
+            .about-pillars {
                 grid-template-columns: 1fr 1fr;
             }
 
@@ -589,7 +603,7 @@
             Build the future<br>with <span class="accent">AI-powered</span><br><span class="accent-blue">SaaS tools.</span>
         </h1>
         <p class="hero-subtitle">
-            We design and launch intelligent software solutions that transform industries — from healthcare to education to the job market.
+            We design and launch intelligent, AI-Powered SaaS products that transform lives and industries.
         </p>
         <div class="hero-cta">
             <a href="#products" class="btn-primary btn-large">See Our Products</a>
@@ -604,26 +618,29 @@
         <div class="about-text">
             <div class="section-label">What We Do</div>
             <h2 class="section-title">We build <span class="accent">AI tools</span> that solve real problems.</h2>
-            <p>Mytheon Technologies is an Almaty-based company leveraging artificial intelligence to create best-in-class SaaS products for global markets.</p>
-            <p>Our tools are purpose-built for specific industries — powerful enough for professionals, accessible enough for everyone.</p>
+            <p>Mytheon Technologies is an AI-first company, specialising in developing and launching SaaS products for global markets.</p>
             <a href="#products" class="btn-primary">Explore Products</a>
         </div>
-        <div class="about-stats">
-            <div class="stat-card">
-                <div class="stat-number">3</div>
-                <div class="stat-label">Live AI Products</div>
+        <div class="about-pillars">
+            <div class="pillar-card">
+                <div class="pillar-icon">🚀</div>
+                <div class="pillar-title">Launch Fast</div>
+                <div class="pillar-desc">From concept to live product — we move quickly without cutting corners.</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number">AI</div>
-                <div class="stat-label">First Approach</div>
+            <div class="pillar-card">
+                <div class="pillar-icon">🧠</div>
+                <div class="pillar-title">AI-First</div>
+                <div class="pillar-desc">Every product we build is designed around intelligent automation at its core.</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number">🌐</div>
-                <div class="stat-label">Global Reach</div>
+            <div class="pillar-card">
+                <div class="pillar-icon">🌍</div>
+                <div class="pillar-title">Global Markets</div>
+                <div class="pillar-desc">Built to scale across borders, languages, and industries worldwide.</div>
             </div>
-            <div class="stat-card gold-card">
-                <div class="stat-number">KZ</div>
-                <div class="stat-label">Based in Kazakhstan</div>
+            <div class="pillar-card" style="border-color: rgba(19,70,200,0.3); background: var(--blue);">
+                <div class="pillar-icon" style="background: rgba(255,255,255,0.15);">📍</div>
+                <div class="pillar-title">Based in Almaty</div>
+                <div class="pillar-desc">Headquartered in Kazakhstan, building for the world.</div>
             </div>
         </div>
     </div>
@@ -656,7 +673,7 @@
         <div class="product-card">
             <div class="product-icon">💼</div>
             <div class="product-tag">HR & Recruitment AI</div>
-            <h3 class="product-name">Job Ads <span>Copilot</span></h3>
+            <h3 class="product-name">Ads <span>Copilot</span></h3>
             <p class="product-desc">An AI writing assistant for recruitment teams — craft compelling, bias-free job ads in seconds, tailored to attract the right candidates faster.</p>
             <a href="#contact" class="product-link">Learn more →</a>
         </div>
