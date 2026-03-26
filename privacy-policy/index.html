@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Mytheon Technologies</title>
+    <link rel="alternate" hreflang="en" href="https://sotirios-bot.github.io/mytheon/privacy-policy/">
+    <link rel="alternate" hreflang="ru" href="https://sotirios-bot.github.io/mytheon/privacy-policy/ru/">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --blue: #1346C8; --blue-light: #2D5FE8; --blue-pale: #EBF0FF;
+            --dark: #0A1628; --white: #FFFFFF; --gold: #F0A500; --text-muted: #4A5A7A;
+        }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--white); color: var(--dark); line-height: 1.7; }
+
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(10,22,40,0.96); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,0.07); padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 72px; }
+        .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .nav-logo img { height: 42px; width: auto; }
+        .logo-fallback { display: none; width: 42px; height: 42px; background: var(--blue); border-radius: 8px; align-items: center; justify-content: center; color: white; font-size: 18px; font-weight: 900; }
+        .nav-brand { color: var(--white); font-size: 16px; font-weight: 700; letter-spacing: 0.4px; }
+        .nav-brand span { color: var(--gold); }
+        .nav-back { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .nav-back:hover { color: white; }
+        .lang-switcher { display: flex; gap: 2px; background: rgba(255,255,255,0.07); border-radius: 8px; padding: 3px; }
+        .lang-btn { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 12px; font-weight: 700; padding: 5px 10px; border-radius: 6px; letter-spacing: 0.5px; transition: background 0.2s, color 0.2s; }
+        .lang-btn:hover { color: var(--white); background: rgba(255,255,255,0.1); }
+        .lang-btn.active { background: var(--blue); color: var(--white); }
+
+        .page-header { background: var(--dark); padding: 120px 5% 64px; }
+        .page-header h1 { font-size: clamp(36px, 5vw, 60px); font-weight: 900; color: var(--white); letter-spacing: -1.5px; margin-bottom: 16px; }
+        .page-header p { color: rgba(255,255,255,0.45); font-size: 16px; }
+
+        .policy-body { max-width: 800px; margin: 0 auto; padding: 72px 5%; }
+
+        .policy-section { margin-bottom: 48px; }
+        .policy-section h2 { font-size: 22px; font-weight: 800; color: var(--dark); margin-bottom: 16px; letter-spacing: -0.3px; padding-bottom: 12px; border-bottom: 2px solid var(--blue-pale); }
+        .policy-section p { font-size: 16px; color: var(--text-muted); margin-bottom: 14px; }
+        .policy-section ul { padding-left: 24px; margin-bottom: 14px; }
+        .policy-section ul li { font-size: 16px; color: var(--text-muted); margin-bottom: 8px; }
+        .policy-section a { color: var(--blue); text-decoration: none; }
+        .policy-section a:hover { text-decoration: underline; }
+
+        .effective-date { display: inline-block; background: var(--blue-pale); color: var(--blue); font-size: 13px; font-weight: 700; padding: 6px 14px; border-radius: 100px; margin-bottom: 48px; }
+
+        footer { background: var(--dark); padding: 28px 5%; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.05); flex-wrap: wrap; gap: 12px; }
+        .footer-text { color: rgba(255,255,255,0.35); font-size: 14px; }
+        .footer-text strong { color: rgba(255,255,255,0.7); }
+        .footer-text a { color: rgba(255,255,255,0.35); text-decoration: none; }
+        .footer-text a:hover { color: rgba(255,255,255,0.7); }
+
+        @media (max-width: 600px) { footer { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="/mytheon/" class="nav-logo">
+        <img src="../Mytheon%20Technologies.png" alt="Mytheon Technologies"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="logo-fallback">M</div>
+        <span class="nav-brand">MYTHEON <span>TECHNOLOGIES</span></span>
+    </a>
+    <div style="display:flex;align-items:center;gap:24px;">
+        <a href="/mytheon/" class="nav-back">← Back to site</a>
+        <div class="lang-switcher">
+            <a href="/mytheon/privacy-policy/" class="lang-btn active">EN</a>
+            <a href="/mytheon/privacy-policy/ru/" class="lang-btn">RU</a>
+        </div>
+    </div>
+</nav>
+
+<div class="page-header">
+    <h1>Privacy Policy</h1>
+    <p>Mytheon Technologies — how we collect, use, and protect your data.</p>
+</div>
+
+<div class="policy-body">
+    <div class="effective-date">Effective date: 26 March 2026</div>
+
+    <div class="policy-section">
+        <h2>1. Who We Are</h2>
+        <p>Mytheon Technologies ("we", "our", or "us") is an AI-first technology company headquartered at 133/1 Gagarin Avenue, Almaty, Kazakhstan. We develop and operate AI-powered SaaS products including OpenEMDR.ai and AdsCopilot.ai.</p>
+        <p>This Privacy Policy explains how we handle personal information when you visit our website or use our products.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>2. Information We Collect</h2>
+        <p>We may collect the following types of information:</p>
+        <ul>
+            <li><strong>Contact information</strong> — name, email address, phone number, when you reach out to us directly.</li>
+            <li><strong>Usage data</strong> — pages visited, time spent, browser type, and device information, collected automatically when you use our website.</li>
+            <li><strong>Communications</strong> — messages you send us via WhatsApp or other channels.</li>
+        </ul>
+        <p>We do not collect sensitive personal data (such as health or financial information) through this website.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>3. How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li>Respond to your enquiries and provide customer support.</li>
+            <li>Improve our website and products based on usage patterns.</li>
+            <li>Send product updates or announcements if you have opted in.</li>
+            <li>Comply with legal obligations.</li>
+        </ul>
+        <p>We do not sell, rent, or trade your personal information to third parties.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>4. Cookies</h2>
+        <p>Our website may use cookies to enhance your browsing experience. Cookies are small files stored on your device that help us understand how the site is used.</p>
+        <p>You can control or disable cookies through your browser settings. Disabling cookies may affect some functionality of the site.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>5. Data Sharing</h2>
+        <p>We do not share your personal data with third parties except in the following circumstances:</p>
+        <ul>
+            <li><strong>Service providers</strong> — trusted partners who help us operate our website or products (e.g. hosting, analytics), bound by confidentiality agreements.</li>
+            <li><strong>Legal requirements</strong> — if required by law or to protect our legal rights.</li>
+        </ul>
+    </div>
+
+    <div class="policy-section">
+        <h2>6. Data Retention</h2>
+        <p>We retain personal data only for as long as necessary to fulfil the purposes described in this policy, or as required by law. When data is no longer needed, we securely delete or anonymise it.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>7. Your Rights</h2>
+        <p>Depending on your location, you may have the right to:</p>
+        <ul>
+            <li>Access the personal data we hold about you.</li>
+            <li>Request correction of inaccurate data.</li>
+            <li>Request deletion of your data.</li>
+            <li>Object to or restrict certain types of processing.</li>
+            <li>Withdraw consent at any time (where processing is based on consent).</li>
+        </ul>
+        <p>To exercise any of these rights, please contact us via WhatsApp at <a href="https://wa.me/77754227619">+7 775 422 7619</a>.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>8. Security</h2>
+        <p>We take reasonable technical and organisational measures to protect your personal data from unauthorised access, loss, or misuse. However, no method of transmission over the internet is 100% secure.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>9. Third-Party Links</h2>
+        <p>Our website may contain links to third-party websites (such as WhatsApp). We are not responsible for the privacy practices of those sites and encourage you to review their own privacy policies.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will post the updated version on this page with a revised effective date. Continued use of our website after changes constitutes acceptance of the updated policy.</p>
+    </div>
+
+    <div class="policy-section">
+        <h2>11. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <ul>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/77754227619">+7 775 422 7619</a></li>
+            <li><strong>Address:</strong> 133/1 Gagarin Avenue, Almaty, Kazakhstan</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-text">© 2026 <strong>Mytheon Technologies</strong>. All rights reserved.</div>
+    <div class="footer-text">133/1 Gagarin Avenue, Almaty, Kazakhstan</div>
+    <div class="footer-text"><a href="/mytheon/privacy-policy/">Privacy Policy</a></div>
+</footer>
+
+</body>
+</html>

@@ -85,7 +85,7 @@
 
         #products { padding: 100px 5%; background: var(--blue-pale); }
         .products-header { text-align: center; max-width: 600px; margin: 0 auto 60px; }
-        .products-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; max-width: 1100px; margin: 0 auto; }
+        .products-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; max-width: 1100px; margin: 0 auto; }
         .product-card { background: var(--white); border-radius: 20px; padding: 44px 36px; border: 1px solid rgba(19,70,200,0.09); transition: transform 0.25s, box-shadow 0.25s; position: relative; overflow: hidden; display: flex; flex-direction: column; }
         .product-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--blue); }
         .product-card:hover { transform: translateY(-6px); box-shadow: 0 24px 60px rgba(19,70,200,0.14); }
@@ -259,13 +259,6 @@
             <a href="#contact" class="product-link">Узнать больше →</a>
         </div>
         <div class="product-card">
-            <div class="product-icon">🇰🇿</div>
-            <div class="product-tag">ИИ для изучения языков</div>
-            <h3 class="product-name">Learn<span>Kazakh</span>.ai</h3>
-            <p class="product-desc">Интеллектуальная платформа для изучения казахского языка с адаптивным ИИ — один из самых распространённых языков Центральной Азии.</p>
-            <a href="#contact" class="product-link">Узнать больше →</a>
-        </div>
-        <div class="product-card">
             <div class="product-icon">📈</div>
             <div class="product-tag">AdTech AI</div>
             <h3 class="product-name">Ads<span>Copilot</span>.ai</h3>
@@ -315,6 +308,7 @@
 <footer>
     <div class="footer-text">© 2026 <strong>Mytheon Technologies</strong>. Все права защищены.</div>
     <div class="footer-text">Проспект Гагарина 133/1, Алматы, Казахстан</div>
+    <div class="footer-text"><a href="/mytheon/privacy-policy/ru/" style="color:rgba(255,255,255,0.35);text-decoration:none;" onmouseover="this.style.color='rgba(255,255,255,0.7)'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">Политика конфиденциальности</a></div>
 </footer>
 
 <script>
