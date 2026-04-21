@@ -1,0 +1,32 @@
+# Mytheon Technologies
+
+> Mytheon Technologies is an AI-first SaaS company based in Almaty, Kazakhstan. We design and launch intelligent, AI-powered products that transform lives and industries.
+
+## About
+
+Mytheon Technologies specialises in developing and launching AI-powered SaaS products for global markets. The company operates on four core principles: AI-Powered (building the next version of the conversational web), Human-Oriented (solving real-world problems one product at a time), Built to Scale (made in Kazakhstan, built for the world), and Moving Fast (from concept to live product in weeks).
+
+- **Website**: https://www.mytheon.co
+- **Location**: 133/1 Gagarin Avenue, Almaty, Kazakhstan
+- **Contact**: +7 775 422 7619 (WhatsApp)
+- **Languages**: English, Russian
+
+## Products
+
+### OpenEMDR.ai
+An AI-powered platform making EMDR (Eye Movement Desensitization and Reprocessing) therapy more accessible to therapists and patients worldwide.
+
+- **Category**: Mental Health AI / Healthcare SaaS
+- **Target users**: Therapists, mental health professionals, patients
+- **Value proposition**: Evidence-based trauma treatment at scale
+
+### AdsCopilot.ai
+A smart AI Copilot built for Performance Marketing professionals. Enables marketers to write high-converting ad copy across Google, Meta, TikTok and other platforms in seconds.
+
+- **Category**: AdTech AI / Marketing SaaS
+- **Target users**: Performance marketers, digital advertising professionals, agencies
+- **Value proposition**: High-converting ad copy across all major platforms, generated in seconds
+
+## Mission
+
+We exist to make AI work for people who actually need it. We build tools that make a real difference — one use case at a time.
