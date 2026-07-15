@@ -6,6 +6,7 @@
 
 - [Home](https://www.mytheon.co/): Main homepage — company overview, mission, products, and contact information.
 - [Home (Russian)](https://www.mytheon.co/ru/): Russian-language version of the homepage.
+- [Home (Kazakh)](https://www.mytheon.co/kk/): Kazakh-language version of the homepage.
 - [Privacy Policy](https://www.mytheon.co/privacy-policy/): Privacy policy for Mytheon Technologies products and services.
 - [Privacy Policy (Russian)](https://www.mytheon.co/privacy-policy/ru/): Russian-language privacy policy.
 

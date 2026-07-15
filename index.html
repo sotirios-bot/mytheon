@@ -15,6 +15,7 @@
     <link rel="icon" type="image/png" href="/favicon-white.png">
     <link rel="alternate" hreflang="en"        href="https://mytheon.co/">
     <link rel="alternate" hreflang="ru"        href="https://mytheon.co/ru/">
+    <link rel="alternate" hreflang="kk"        href="https://mytheon.co/kk/">
     <link rel="alternate" hreflang="x-default" href="https://mytheon.co/">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <style>
@@ -373,9 +374,9 @@
 
         .products-grid {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, 1fr);
             gap: 28px;
-            max-width: 560px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
@@ -459,6 +460,16 @@
         }
 
         .product-link:hover { gap: 12px; }
+
+        .product-coming-soon {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--gold);
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: auto;
+        }
 
         /* ─── CONTACT ─── */
         #contact {
@@ -775,6 +786,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="lang-switcher">
             <a href="/" class="lang-btn active">EN</a>
             <a href="/ru/" class="lang-btn">RU</a>
+            <a href="/kk/" class="lang-btn">KK</a>
         </div>
     </div>
     <button class="hamburger" id="hamburger" aria-label="Open menu">
@@ -887,6 +899,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h3 class="product-name">PDF<span>Convert</span>Me.com</h3>
             <p class="product-desc">Convert your PDFs in seconds. Instantly transform PDF files into editable formats — fast, accurate, and completely free. No software to install, no sign-up required.</p>
             <a href="https://www.pdfconvertme.com/" class="product-link" target="_blank" rel="noopener">Visit PDFConvertMe →</a>
+        </div>
+
+        <div class="product-card">
+            <div class="product-icon">📱</div>
+            <div class="product-tag">AdsCopilot.ai</div>
+            <h3 class="product-name">Ads<span>Copilot</span>.ai</h3>
+            <p class="product-desc">A smart AI tool to score your Facebook and Instagram ads. Get instant performance grades and actionable recommendations — know exactly what's working and what's not.</p>
+            <span class="product-coming-soon">⏳ Coming Soon</span>
         </div>
 
     </div>
